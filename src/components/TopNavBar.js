@@ -41,9 +41,7 @@ export default function TopNavBar() {
               <NavDropdown.Item href="/bylaws">Bylaws</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Forms" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/" disabled>
-                Contact
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
               <NavDropdown.Item href="/" disabled>
                 Complaint/Violation
               </NavDropdown.Item>

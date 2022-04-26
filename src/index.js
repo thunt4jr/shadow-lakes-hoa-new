@@ -15,6 +15,7 @@ import Paint from "./components/Paint";
 import Board from "./components/Board";
 import Deed from "./components/Deed";
 import Bylaws from "./components/Bylaws";
+import Contact from "./Forms/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +28,7 @@ root.render(
       <Route path="/board-members" element={<Board />} />
       <Route path="/deed-restrictions" element={<Deed />} />
       <Route path="/bylaws" element={<Bylaws />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       <Route path="/cookies-policy" element={<CookiesPolicy />} />
       <Route path="/terms-conditions" element={<TermsConditions />} />
